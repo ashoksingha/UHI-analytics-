@@ -58,3 +58,5 @@ Map.to_streamlit(height=600)
 st.subheader(f"Insights for Bhubaneswar in {year}")
 st.write("Based on the methodology of Thomas et al. (2026):")
 st.info("Reduction in vegetation cover directly correlates with a 3°C to 5°C rise in surface temperature[cite: 16, 191].")
+if __name__ == "__main__":
+    main()
